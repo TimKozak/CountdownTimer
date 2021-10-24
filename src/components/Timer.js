@@ -37,7 +37,9 @@ const Timer = ({ event_name, event_date }) => {
 
   return (
     <div>
-      <h1 class="text-center pb-3">Countdown to {event_name}</h1>
+      <h1 class="text-center pb-3">
+        Countdown to {event_name} <i class="far fa-heart"></i>
+      </h1>
       <Row>
         <Col>
           <h2 class="text-center">{days}</h2>
