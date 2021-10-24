@@ -6,8 +6,8 @@ import { getTime } from "./logic/getTime";
 const App = () => {
   // Specify event name
   const EVENT_NAME = "My Birthday";
-  // Specify event date (day.month.year)
-  const EVENT_DATE = "24.10";
+  // Specify event date (day.month)
+  const EVENT_DATE = "01.12";
   // Specify background color
   const COLOR = "#B19CD9";
 
